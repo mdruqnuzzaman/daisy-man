@@ -9,6 +9,20 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" 
     rel="stylesheet" type="text/css" />
 <script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        backgroundImage: {
+          'hero-bg': "url ('./images/yellow-bg.jpg')",
+        }
+
+
+      }
+    }
+  }
+</script>
+
 </head>
 <body>
     <!-- <div class="bg-red-500 max-w-xl max-auto my-10 py-5 md:px-12 lg: px-16">1</div>
@@ -60,7 +74,7 @@
       </div>
       <!-- hero section -->
       <section>
-        <div class="hero min-h-[calc(100vh-66px)]" style="background-image: url(./images/yellow-bg.jpg);">
+        <div class= "hero min-h-[calc(100vh-66px)]"style="background-image: url(./images/yellow-bg.jpg);">
           <div class="hero-overlay bg-opacity-60"></div>
           <div class="hero-content text-center text-neutral-content">
             <div class="max-w-md">
